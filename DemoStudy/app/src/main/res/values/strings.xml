@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">DemoStudy</string>
+    <string name="click01">跳转到TextView</string>
+    <string name="click02">跳转到Button</string>
+    <string name="click03">跳转到EditText</string>
+    <string name="hello">helloooooooooooooo</string>
+    <string name="people">人数</string>
+    <string name="hello_world">你好,世界</string>
+    <string name="words">你好你好你好联合斤斤计较你好你好你好联合斤斤计较你好你好你好联合斤斤计较你好你好你好联合斤斤计较你好你好你好联合斤斤计较</string>
+    <string name="btn_1">按钮1</string>
+    <string name="btn_2">按钮2</string>
+    <string name="btn_3">按钮3</string>
+    <string name="btn_4">按钮4</string>
+    <string name="click_button3">button3被点击了</string>
+    <string name="click_button4">button4被点击了</string>
+    <string name="click_text">文本被点击了</string>
+    <string name="name">用户名</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="sucesslogin">登录成功!</string>
+    <string name="jump">Jump</string>
+    <string name="jum">跳转</string>
+    <string name="ret">点此返回</string>
+    <string name="Img">查看图片</string>
+    <string name="ListView">跳转到ListView</string>
+    <string name="RecycleView">跳转到RecycleView</string>
+    <string name="time">2020-04-20</string>
+    <string name="text">这是一些内容</string>
+    <string name="recycle_lsit">列表视图</string>
+    <string name="text01">Hello World</string>
+    <string name="Handler">跳转到HanlerView</string>
+    <string name="jumpFragment">跳转到Fragment</string>
+    <string name="Fragment_A">我是FragmentA</string>
+    <string name="Fragment_B">我是FragmentB</string>
+    <string name="change">更换Fragment</string>
+</resources>

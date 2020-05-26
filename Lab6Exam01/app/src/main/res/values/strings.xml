@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab6Exam01</string>
+    <string name="forecast">未来三天的天气情况如下:</string>
+    <string name="getWeather">获取天气</string>
+</resources>

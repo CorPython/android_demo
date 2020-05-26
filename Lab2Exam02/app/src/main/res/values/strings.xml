@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab2Exam02</string>
+    <string name="name">姓名 :</string>
+    <string name="age">年龄 :</string>
+    <string name="height">身高 :</string>
+    <string name="add_data">添加数据</string>
+    <string name="show_all">全部显示</string>
+    <string name="clear_all">清除显示</string>
+    <string name="delete_all">全部删除</string>
+    <string name="first">跳转1</string>
+    <string name="second">跳转2</string>
+    <string name="third">跳转3</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab2Exer02</string>
+    <string name="red">red</string>
+    <string name="green">green</string>
+    <string name="blue">blue</string>
+    <string name="yellow">yellow</string>
+    <string name="row_one">row one</string>
+    <string name="row_two">row two</string>
+    <string name="row_three">row three</string>
+    <string name="row_four">row four</string>
+</resources>

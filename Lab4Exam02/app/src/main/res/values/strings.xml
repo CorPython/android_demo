@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab4Exam02</string>
+    <string name="number1">数字1:</string>
+    <string name="first">第一个数字</string>
+    <string name="number2">数字2:</string>
+    <string name="second">第二个数字</string>
+    <string name="start">启动比较</string>
+    <string name="max">更大的那个数:</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">testComponent</string>
+    <string name="button1">button</string>
+    <string name="password">password</string>
+    <string name="left">左</string>
+    <string name="text">文本</string>
+    <string name="right">右</string>
+    <string name="checkbox1">语文</string>
+    <string name="math">数学</string>
+    <string name="Switch">开关</string>
+    <string name="ensure">确定</string>
+</resources>

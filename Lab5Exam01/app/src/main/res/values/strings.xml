@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab5Exam01</string>
+    <string name="save">保存配置信息</string>
+    <string name="background_color">背景颜色</string>
+    <string name="text_color">字体颜色</string>
+    <string name="tips">8~60</string>
+    <string name="text_size">字体大小</string>
+</resources>

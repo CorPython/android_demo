@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lab2Exam05</string>
+    <string name="message">只允许输入数字哦!(only numbers)</string>
+</resources>

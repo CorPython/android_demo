@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lab5Exam02</string>
+    <string name="test01">测试文字1</string>
+    <string name="test02">测试文字2</string>
+    <string name="test03">测试文字3</string>
+    <string name="test04">测试文字4</string>
+    <string name="text">文本内容:</string>
+    <string name="text01">读取文本内容如下:</string>
+    <string name="save">保存</string>
+    <string name="read">读取文本</string>
+    <string name="jump">内部存储</string>
+    <string name="jump1">外部存储</string>
+    <string name="segment">读取的配置字段如下:</string>
+    <string name="apply">应用配置</string>
+</resources>

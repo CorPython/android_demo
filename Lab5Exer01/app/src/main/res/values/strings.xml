@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab5Exer01</string>
+    <string name="menu_setting">Settings</string>
+    <string name="hello_world">hello,world!</string>
+    <string name="btn">向sharePreferences写数据</string>
+    <string name="btn1">读取sharePreferences数据</string>
+</resources>

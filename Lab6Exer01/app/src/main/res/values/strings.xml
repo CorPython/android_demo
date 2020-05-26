@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab6Exer01</string>
+    <string name="hint1">请输入用户名</string>
+    <string name="hint2">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="result">结果:</string>
+</resources>

@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Text01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edit01"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="-407dp"
+        android:layout_toRightOf="@id/Text01"
+        android:autofillHints=""
+        android:inputType="none"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="-407dp"
+        android:layout_toEndOf="@id/Text01"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/Text02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text01"
+        android:text="@string/age"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edit02"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text01"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="-407dp"
+        android:layout_marginRight="-407dp"
+        android:layout_toEndOf="@id/Text02"
+        android:layout_toRightOf="@id/Text02"
+        android:autofillHints=""
+        android:inputType="none"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/Text03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text02"
+        android:text="@string/height"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edit03"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text02"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="-407dp"
+        android:layout_toRightOf="@id/Text03"
+        android:autofillHints=""
+        android:inputType="none"
+        android:layout_marginEnd="-407dp"
+        android:layout_marginStart="0dp"
+        android:layout_toEndOf="@id/Text03"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_below="@id/Text03"
+        android:text="@string/add_data" />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_below="@id/Text03"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_toEndOf="@id/button01"
+        android:layout_toRightOf="@id/button01"
+        android:text="@string/show_all" />
+
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_below="@id/Text03"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_toEndOf="@id/button02"
+        android:layout_toRightOf="@id/button02"
+        android:text="@string/clear_all" />
+
+    <Button
+        android:id="@+id/button04"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_below="@id/Text03"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_toEndOf="@id/button03"
+        android:layout_toRightOf="@id/button03"
+        android:text="@string/delete_all" />
+
+</RelativeLayout>

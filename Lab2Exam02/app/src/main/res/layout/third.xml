@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="150dp"
+        android:text="@string/add_data" />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="150dp"
+        android:text="@string/show_all" />
+
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="150dp"
+        android:text="@string/clear_all" />
+
+    <Button
+        android:id="@+id/button04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="300dp"
+        android:layout_y="150dp"
+        android:text="@string/delete_all" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:text="@string/name"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_x="75dp"
+        android:layout_y="0dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="40dp"
+        android:text="@string/age"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText02"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_x="74dp"
+        android:layout_y="37dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:autofillHints=""
+        android:importantForAutofill="no"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="80dp"
+        android:text="@string/height"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_x="76dp"
+        android:layout_y="81dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:autofillHints=""
+        android:importantForAutofill="no"
+        tools:ignore="LabelFor" />
+
+</AbsoluteLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab2Exer01</string>
+    <string name="change">change</string>
+    <string name="hello">hello,World</string>
+    <string name="first">first</string>
+    <string name="second">second</string>
+    <string name="hh">TextView</string>
+</resources>
