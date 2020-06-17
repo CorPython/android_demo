@@ -1,0 +1,90 @@
+<view class="cu-bar bg-white margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text> 知识长廊
+  </view>
+</view>
+<swiper class="card-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff">
+  <swiper-item wx:for="{{swiperList}}" wx:key class="{{cardCur==index?'cur':''}}">
+    <view class="swiper-item">
+      <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+      <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+    </view>
+  </swiper-item>
+</swiper>
+<view class="cu-bar bg-white margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text> 开发工具
+  </view>
+</view>
+<view class="padding">
+	<view class="padding-sm bg-white flex">
+		<view>
+			<image class="cu-avatar lg bg-white" src="/image/tab/ide.png"></image>
+		</view>
+		<view class="margin-left-sm ">
+			<view>Eclipse、Idea、Android studio、Visual studio、Hbuilder、codeblocks</view>
+		</view>
+	</view>
+</view>
+
+<view class="cu-bar bg-white margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text> 擅长语言
+  </view>
+</view>
+<view class="padding">
+	<view class="padding-sm bg-white flex">
+		<view>
+			<image class="cu-avatar lg bg-white" src="/image/tab/H5.png"></image>
+		</view>
+		<view class="margin-left-sm ">
+			<view>Java、C、SQL、JavaScript、Python、c++</view>
+		</view>
+	</view>
+</view>
+
+<view class="cu-bar bg-white margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text> 个人评价
+  </view>
+</view>
+<view class="padding">
+	<view class="padding-sm bg-white flex">
+		<view>
+			<image class="cu-avatar lg bg-white" src="/image/tab/yundong.png"></image>
+		</view>
+		<view class="margin-left-sm ">
+			<view>本人篮球练习时长两年半。空闲之余喜欢看电影，都说电影将你的人生延长三倍，每看一部电影，总会有新的体会。生活中乐于助人，品德优良</view>
+		</view>
+	</view>
+</view>
+
+<view class="cu-bar bg-white margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-pink"></text> 最近在听
+  </view>
+</view>
+<view class="padding">
+	<view class="padding-sm bg-white flex">
+		<view class="margin-left-sm ">
+			
+
+</view>
+	<view class="music_audio">
+	<audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>
+</view>
+	</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+

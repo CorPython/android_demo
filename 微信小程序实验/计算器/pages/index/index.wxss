@@ -1,0 +1,84 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avata/**index.wxss**/
+.container{
+display: flex;
+flex-flow: row wrap;
+justify-content: flex-start;
+align-items: flex-start;
+margin: 0;
+padding: 0;
+background-color:rgb(243, 243, 243) 
+}
+.display{
+width: 100vw;
+background-color: rgba(235, 231, 231, 0.8);
+}
+.calc{
+position: relative;
+}
+.error{
+height: 30vh;
+}
+.result{
+position: absolute;
+text-align: right;
+width: 100%;
+height: 5vh;
+bottom: 0;
+font-size: 45rpx;
+}
+.signal{
+height: 5vh;
+text-align: right;
+font-size: 45rpx;
+margin-top: 10rpx;
+}
+.btns{
+width: 100%;
+flex-direction: row;
+display: flex;
+}
+.btn-group{
+display: flex;
+flex-direction: column;
+flex:1;
+width: 100%;
+height: 100%;
+}
+.right one{
+margin-right: 2rpx;
+}
+.left one{
+margin-left: 2rpx;
+}
+.btn{
+width: 186rpx;
+display: flex;
+align-items: center;
+height: 150rpx;
+justify-content: center;
+border:1rpx solid #C0C0C0;
+color:black;
+background-color: #DDDDDD;
+box-sizing: border-box;
+}
+.btn:active{
+background-color: #ff0000;
+}
+.btn-equal{
+width: 186rpx;
+display: flex;
+align-items: center;
+height: 300rpx;
+justify-content: center;
+border:1rpx solid #C0C0C0;
+color:black;
+background-color: #DDDDDD;
+box-sizing: border-box;
+}

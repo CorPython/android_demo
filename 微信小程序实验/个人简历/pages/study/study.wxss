@@ -1,0 +1,33 @@
+.edu{
+  height: 1px;
+  border-top:1px solid #ddd;
+}
+
+.edu::before{
+  content: '高中教育';
+  position: relative;
+  top: -10px;
+  height: 50rpx;
+  line-height: 50rpx;
+  background-color: #fff;
+  padding:0 20rpx;
+}
+
+.edu1::before{
+  content: '本科教育';
+  position: relative;
+  top: -10px;
+  height: 50rpx;
+  line-height: 50rpx;
+  background-color: #fff;
+  padding:0 20rpx;
+}
+.edu2::before{
+  content: '主修课程';
+  position: relative;
+  top: -10px;
+  height: 50rpx;
+  line-height: 50rpx;
+  background-color: #fff;
+  padding:0 20rpx;
+}

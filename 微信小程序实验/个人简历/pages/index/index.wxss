@@ -1,0 +1,19 @@
+.edu{
+  height: 1px;
+  border-top:1px solid #ddd;
+}
+.edu::before{
+  content: '教育背景';
+  position: relative;
+  top: -10px;
+  height: 50rpx;
+  line-height: 50rpx;
+  background-color: #fff;
+  padding:0 20rpx;
+}
+.cu-avatar{
+  width: 200rpx;
+  height: 200rpx;
+  font-size: 2em;
+  }
+  

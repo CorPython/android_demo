@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/study/study",
+    "pages/techang/techang",
+    "pages/huojiang/huojiang"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "张福平个人简历",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "selectedColor":"#0080ff",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/image/tab/info0.png",
+        "selectedIconPath": "/image/tab/info1.png",
+        "text": "基本信息"
+      },
+      {
+        "pagePath": "pages/study/study",
+        "iconPath": "/image/tab/project0.png",
+        "selectedIconPath": "/image/tab/project1.png",
+        "text": "学习经历"
+      },
+      {
+        "pagePath": "pages/techang/techang",
+        "iconPath": "/image/tab/skill0.png",
+        "selectedIconPath": "/image/tab/skill1.png",
+        "text": "特长爱好"
+      },
+      {
+        "pagePath": "pages/huojiang/huojiang",
+        "iconPath": "/image/tab/huojiang1.png",
+        "selectedIconPath": "/image/tab/huojiang0.png",
+        "text": "获奖经历"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

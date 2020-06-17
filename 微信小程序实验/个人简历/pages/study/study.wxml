@@ -1,0 +1,54 @@
+<!--教育背景-->
+
+<view class="padding-xl radius shadow-warp bg-white margin-top">
+  <view class="cuIcon-medalfill text-xl text-blue text-center"></view>
+  <view class="edu margin-top text-center text-bold"></view>
+
+  <view class="margin-top-sm">
+    <text class="cuIcon-time lg text-gray "></text>
+    <text class="margin-left-sm">2014.9-2017.6</text>
+  </view>
+
+  <view class="margin-top-sm">
+    <text class="cuIcon-home lg text-gray "></text>
+    <text class="margin-left-sm">万载中学</text>
+  </view>
+  
+  <view class="margin-top-sm">
+    <text class="cuIcon-attention lg text-gray "></text>
+    <text class="margin-left-sm">理科</text>
+  </view>
+</view>
+
+<view class="padding-xl radius shadow-warp bg-white margin-top">
+  <view class="cuIcon-medalfill text-xl text-blue text-center"></view>
+  <view class="edu1 margin-top text-center text-bold"></view>
+
+  <view class="margin-top-sm">
+    <text class="cuIcon-time lg text-gray "></text>
+    <text class="margin-left-sm">2017.9-2021.6</text>
+  </view>
+
+  <view class="margin-top-sm">
+    <text class="cuIcon-home lg text-gray "></text>
+    <text class="margin-left-sm">南昌航空大学</text>
+  </view>
+  
+  <view class="margin-top-sm">
+    <text class="cuIcon-attention lg text-gray "></text>
+    <text class="margin-left-sm">物联网工程</text>
+  </view>
+</view>
+
+<view class="padding-xl radius shadow-warp bg-white margin-top">
+  <view class="cuIcon-medalfill text-xl text-blue text-center"></view>
+  <view class="edu2 margin-top text-center text-bold"></view>
+
+  <view class="margin-top-sm">
+    <text class="margin-left-sm">
+    数据库原理，数据结构，操作系统，计算机网络，计算机组成原理，算法与程序设计，Java面向对象程序设计，无线传感器网路，ZigBee程序设计,微信小程序开发等</text>
+  </view>
+</view>
+
+
+

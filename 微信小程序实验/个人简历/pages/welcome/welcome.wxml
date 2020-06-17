@@ -1,0 +1,4 @@
+<!--pages/welcome/welcome.wxml-->
+<view class='imagesize'>
+	<image mode="widthFix" class="justify-content: center" src="/image/qishi.png"></image>
+</view>

@@ -1,0 +1,61 @@
+<!--pages/huojiang/huojiang.wxml-->
+<view class="padding">
+  <view class="cu-timeline">
+    <view class="cu-item">
+      <view class="content">
+        <view class="flex justify-between align-center">
+          <text class="cu-tag line-blue">2018.12</text>
+        </view>
+        <view class="fle margin-top-sm">
+          <text class="flex-sub text-bold">活动名称：英语四级</text>
+        </view>
+        <view class="fle margin-top-sm">
+          <text class="flex-sub text-bold">获奖等级：成绩合格</text>
+        </view>        
+      </view>
+    </view>
+
+    <view class="cu-item">
+      <view class="content">
+        <view class="flex justify-between align-center">
+          <text class="cu-tag line-blue">2019.9</text>
+        </view>
+        <view class="fle margin-top-sm">
+          <text class="flex-sub text-bold">活动名称：奖学金</text>
+        </view>
+        <view class="fle margin-top-sm">
+          <text class="flex-sub text-bold">获奖等级：国家励志奖学金</text>
+        </view>        
+      </view>
+    </view>
+
+    <view class="cu-item">
+      <view class="content">
+        <view class="flex justify-between align-center">
+          <text class="cu-tag line-blue">2019.10</text>
+        </view>
+        <view class="fle margin-top-sm">
+          <text class="flex-sub text-bold">活动名称：江西省知识竞赛</text>
+        </view>
+        <view class="fle margin-top-sm">
+          <text class="flex-sub text-bold">获奖等级：省级三等奖</text>
+        </view>        
+      </view>
+    </view>
+
+    <view class="cu-item">
+      <view class="content">
+        <view class="flex justify-between align-center">
+          <text class="cu-tag line-blue">2019.11</text>
+        </view>
+        <view class="fle margin-top-sm">
+          <text class="flex-sub text-bold">活动名称：奖学金评定</text>
+        </view>
+        <view class="fle margin-top-sm">
+          <text class="flex-sub text-bold">获奖等级: 校级三等奖</text>
+        </view>        
+      </view>
+    </view>
+
+  </view>
+</view>

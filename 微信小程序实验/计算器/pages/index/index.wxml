@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<view class="content">
+	<view class="display">
+		<view class="calc">
+			<view class="error"></view>
+			<view class="result">{{displayValue}}</view>
+		</view>
+		<view class="signal">
+			{{step}}
+		</view>
+	</view>
+	<view class="btns">
+		<view class="btn-group left-one">
+			<view class="btn red" bindtap="tap" data-value="AC">AC</view>
+			<view class="btn" bindtap="tap" data-value="7">7</view>
+			<view class="btn" bindtap="tap" data-value="4">4</view>
+			<view class="btn" bindtap="tap" data-value="1">1</view>
+			<view class="btn" bindtap="tap" data-value="%">%</view>
+		</view>
+		<view class="btn-group">
+			<view class="btn" bindtap="tap" data-value="DEL">DEL</view>
+			<view class="btn" bindtap="tap" data-value="8">8</view>
+			<view class="btn" bindtap="tap" data-value="5">5</view>
+			<view class="btn" bindtap="tap" data-value="2">2</view>
+			<view class="btn" bindtap="tap" data-value="0">0</view>
+		</view>
+		<view class="btn-group">
+			<view class="btn" bindtap="tap" data-value="/">/</view>
+			<view class="btn" bindtap="tap" data-value="9">9</view>
+			<view class="btn" bindtap="tap" data-value="6">6</view>
+			<view class="btn" bindtap="tap" data-value="3">3</view>
+			<view class="btn" bindtap="tap" data-value=".">.</view>
+		</view>
+		<view class="btn-group right-one">
+			<view class="btn" bindtap="tap" data-value="*">*</view>
+			<view class="btn" bindtap="tap" data-value="-">-</view>
+			<view class="btn" bindtap="tap" data-value="+">+</view>
+			<view class="btn-equal" bindtap="tap" data-value="=">=</view>
+		</view>
+	</view>
+</view>
